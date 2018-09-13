@@ -274,7 +274,7 @@ me.isbuffpresent = function(texture)
 	local x
 	local bufftexture
 	
-	for x = 1, 16 do
+	for x = 1, 32 do
 		bufftexture = UnitBuff("player", x)
 		
 		if bufftexture == nil then

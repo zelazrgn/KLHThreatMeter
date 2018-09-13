@@ -1,3 +1,6 @@
+17.36
+
+--> now checks over 32 buff spots to see if threat modifiers like salvation are present, previously 16.
 
 17.22
 
