@@ -604,13 +604,16 @@ me.powergain = function(amount, powertype, spellid)
 	local maxgain = UnitManaMax("player") - UnitMana("player")
 	amount = math.min(maxgain, amount)
 	
-	if powertype == mod.string.get("power", "rage") then
+	-- 2) Prevent invalid power gains (Essence of the Red shows both rage and energy gain)
+	local playerpowertype = UnitPowerType("player")
+	
+	if powertype == mod.string.get("power", "rage") and playerpowertype == 1 then
 		me.event.threat = amount * mod.data.threatconstants.ragegain
 		
-	elseif powertype == mod.string.get("power", "energy") then
+	elseif powertype == mod.string.get("power", "energy") and playerpowertype == 3 then
 		me.event.threat = amount * mod.data.threatconstants.energygain
 		
-	elseif powertype == mod.string.get("power", "mana") then
+	elseif powertype == mod.string.get("power", "mana") and playerpowertype == 0 then
 		me.event.threat = amount * mod.data.threatconstants.managain 
 		
 	else
