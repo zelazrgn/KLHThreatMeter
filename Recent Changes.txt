@@ -1,3 +1,7 @@
+17.37
+
+--> Essence of the Red now only gives threat for the players current power type.
+
 17.36
 
 --> now checks over 32 buff spots to see if threat modifiers like salvation are present, previously 16.

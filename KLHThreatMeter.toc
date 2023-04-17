@@ -4,7 +4,7 @@
 ## Notes: A Threat Meter
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
-## Version: 17.36
+## Version: 17.37
 ## SavedVariablesPerCharacter: KLHTM_SavedVariables
 Code\KTM_Core.lua
 Code\Localisation\KTM_Localisation.lua
