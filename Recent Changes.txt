@@ -1,3 +1,10 @@
+17.38
+
+--> Small correction to thunderfury threat values.
+
+--> Onyxia knock away threat reduction is corrected to a 25% reduction (previously 33%) and applies even if the spell misses.
+
+
 17.37
 
 --> Essence of the Red now only gives threat for the players current power type.
