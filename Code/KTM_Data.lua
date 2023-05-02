@@ -217,7 +217,7 @@ me.spells =
 	["thunderfury"] = 
 	{
 		class = "item",
-		threat = 241,
+		threat = 145 + 90,
 	},
 	["graceofearth"] = 
 	{
