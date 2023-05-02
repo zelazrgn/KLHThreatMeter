@@ -997,9 +997,9 @@ me.bossattacks =
 		},
 		onyxia = 
 		{
-			multiplier = 0.67,
+			multiplier = 0.75,
 			addition = 0,
-			effectonmiss = false,
+			effectonmiss = true,
 			ticks = 1,
 			type = "physical",
 		},
