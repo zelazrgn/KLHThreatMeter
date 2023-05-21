@@ -39,3 +39,4 @@ Code\GUI\KTM_TitleGui.lua
 Code\GUI\KTM_OptionsGui.lua
 Code\GUI\KTM_Frame.xml
 Code\GUI\KTM_OptionsFrame.xml
+pfUI.lua
