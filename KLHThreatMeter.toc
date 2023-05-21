@@ -2,6 +2,7 @@
 ## Title: KLHThreatMeter |cff1fff1f<Mesmerize>|r edition
 ## Author: Kenco@Perenolde, edited by Sulfuras
 ## Notes: A Threat Meter
+## Notes-ruRU: Измеритель угрозы
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 ## Version: 17.38
@@ -9,6 +10,7 @@
 Code\KTM_Core.lua
 Code\Localisation\KTM_Localisation.lua
 Code\Localisation\KTM_enUS.lua
+Code\Localisation\KTM_ruRU.lua
 Code\Localisation\KTM_deDE.lua
 Code\Localisation\KTM_frFR.lua
 Code\Localisation\KTM_zhCN.lua
@@ -37,3 +39,4 @@ Code\GUI\KTM_TitleGui.lua
 Code\GUI\KTM_OptionsGui.lua
 Code\GUI\KTM_Frame.xml
 Code\GUI\KTM_OptionsFrame.xml
+pfUI.lua

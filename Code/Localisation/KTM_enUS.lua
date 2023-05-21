@@ -157,6 +157,7 @@ klhtm.string.data["enUS"] =
 	{
 		["speech"] = 
 		{
+			--["onyxiaphase2"] = "This meaningless exertion bores me. I'll incinerate you all from above!",
 			["razorphase2"] = "flee as the controlling power of the orb is drained.",
 			["onyxiaphase3"] = "It seems you'll need another lesson",
 			["thekalphase2"] = "fill me with your RAGE",
